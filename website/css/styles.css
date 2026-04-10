@@ -1350,11 +1350,23 @@ section {
   padding: 20px;
   border-radius: var(--radius-sm);
   transition: var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.contact-item {
+  text-decoration: none;
+  color: inherit;
 }
 
 .contact-item:hover {
   background: var(--light-bg);
   transform: translateX(4px);
+}
+
+a.contact-item:hover {
+  color: inherit;
 }
 
 .contact-item .icon {
